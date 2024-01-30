@@ -1,18 +1,9 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import { RxHamburgerMenu } from "react-icons/rx";
 
-function Navbar() {
+function Navbar({ isOpen, toggleMenu, closeMenu }) {
   const navigate = useNavigate();
-  const [isOpen, setIsOpen] = useState(false);
-
-  const toggleMenu = () => {
-    setIsOpen(!isOpen);
-  };
-
-  const closeMenu = () => {
-    setIsOpen(false);
-  };
 
   const navigateToHome = () => {
     navigate('/');
@@ -56,7 +47,6 @@ function Navbar() {
         }`}
       >
 
-        {/* Your menu items go here */}
         <ul className="flex flex-col p-4">
           <li className="text-white py-2 hover:cursor-pointer w-px" onClick={navigateToHome}>
             Home
