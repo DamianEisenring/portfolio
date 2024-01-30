@@ -4,7 +4,13 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'schwingen_img': "url('/schwingen_img4.png')",
+      }
+    },
   }, 
-  plugins: [],
+  plugins: [  
+    require('tailwind-scrollbar'),
+  ],
 }

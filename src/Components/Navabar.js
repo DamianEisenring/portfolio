@@ -58,19 +58,19 @@ function Navbar() {
 
         {/* Your menu items go here */}
         <ul className="flex flex-col p-4">
-          <li className="text-white py-2" onClick={navigateToHome}>
+          <li className="text-white py-2 hover:cursor-pointer w-px" onClick={navigateToHome}>
             Home
           </li>
-          <li className="text-white py-2" onClick={navigateToPortrait}>
+          <li className="text-white py-2 hover:cursor-pointer w-px" onClick={navigateToPortrait}>
             Portrait
           </li>
-          <li className="text-white py-2" onClick={navigateToSchwingen}>
+          <li className="text-white py-2 hover:cursor-pointer w-px" onClick={navigateToSchwingen}>
             Schwingen
           </li>
-          <li className="text-white py-2" onClick={navigateToInformatik}>
+          <li className="text-white py-2 hover:cursor-pointer w-px" onClick={navigateToInformatik}>
             Informatik
           </li>
-          <li className="text-white py-2" onClick={navigateToKontakt}>
+          <li className="text-white py-2 hover:cursor-pointer w-px" onClick={navigateToKontakt}>
             Kontakt
           </li>
         </ul>

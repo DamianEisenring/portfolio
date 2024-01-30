@@ -7,11 +7,10 @@ import Contact from './Components/Contact';
 import Schwingen from './Components/Schwingen';
 import Informatik from './Components/Informatik';
 
-
 function App() {
   return (
     <BrowserRouter>
-      
+    <div className="custom-scrollbar">
       <Navbar/>
 
       <Routes>
@@ -21,7 +20,8 @@ function App() {
         <Route path="/Schwingen" element={<Schwingen/>}/>
         <Route path="/Informatik" element={<Informatik/>}/>
       </Routes>
-
+    </div>
+      
     </BrowserRouter>
   
   );
