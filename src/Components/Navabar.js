@@ -31,7 +31,7 @@ function Navbar({ isOpen, toggleMenu, closeMenu }) {
   };
 
   return (
-    <div className="relative flex items-center justify-between bg-gray-900 h-100px px-8 " style={{ height: '80px' }}>
+    <div className="relative flex items-center justify-between bg-gray-900 h-100px px-8 " style={{ height: '50px' }}>
       <button
         className="text-white p-2 focus:outline-none focus:bg-gray-600"
         onClick={toggleMenu}
