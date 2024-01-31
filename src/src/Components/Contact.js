@@ -14,7 +14,7 @@ function Contact() {
             rel="noreferrer"
             className="text-white filli"
           >
-            <AiFillGithub style={{ fontSize: '150px' }} />
+            <AiFillGithub  style={{ fontSize: '150px' }} />
             <h1 className="justify-center flex ">My GitHub</h1>
           </a>
           <a
