@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.4b88a318.css",
+    "main.js": "/static/js/main.4144cc1a.js",
+    "static/media/photofrombehind.png": "/static/media/photofrombehind.32fec62c72906e5a420d.png",
+    "static/media/bildformockup-portrait.png": "/static/media/bildformockup-portrait.56eef8d3728588751397.png",
+    "static/media/Stormguard_mockup.png": "/static/media/Stormguard_mockup.4e72378f7208b8f804b9.png",
+    "static/media/ScheduleSphere_mockup.png": "/static/media/ScheduleSphere_mockup.6a8344bede5e5f31b6b3.png",
+    "static/media/react_logo.png": "/static/media/react_logo.8a6fc0a24a800d1e0f4a.png",
+    "static/media/IMG_E3935.png": "/static/media/IMG_E3935.067077f87e6681cc1f8e.png",
+    "static/media/cs_logo.png": "/static/media/cs_logo.324287af23c2b6ad522c.png",
+    "static/media/tailwind_logo.png": "/static/media/tailwind_logo.36b2728bf0d14b7b7576.png",
+    "static/media/js_logo.png": "/static/media/js_logo.940765f470ddd506af04.png",
+    "static/media/database_logo.png": "/static/media/database_logo.dcd75307669d776efa3a.png",
+    "index.html": "/index.html",
+    "main.4b88a318.css.map": "/static/css/main.4b88a318.css.map",
+    "main.4144cc1a.js.map": "/static/js/main.4144cc1a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4b88a318.css",
+    "static/js/main.4144cc1a.js"
+  ]
+}
