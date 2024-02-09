@@ -5,35 +5,35 @@ import { CiLinkedin } from "react-icons/ci";
 
 function Contact() {
   return (
-    <div className="bg-schwingen_img4 h-screen bg-cover bg-no-repeat overflow-hidden grid place-items-center custom-scrollbar">
-      <div className="rounded-xl bg-gray-900 h-30vh w-30vw">
-        <div className="flex space-x-20 justify-center m-10">
+    <div className="bg-gray-200 h-screen bg-cover bg-no-repeat overflow-hidden grid place-items-center custom-scrollbar">
+      <div className="rounded-xl bg-gray-900 h-30vh w-80vw sm:w-70vw md:w-60vw lg:w-50vw xl:w-40vw ">
+        <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 space-x-0 sm:space-x-20 justify-center m-10">
           <a
             href="https://github.com/DamianEisenring"
             target="_blank"
             rel="noreferrer"
-            className="text-white filli"
+            className="text-white filli text-center sm:text-left"
           >
-            <AiFillGithub  style={{ fontSize: '150px' }} />
-            <h1 className="justify-center flex ">My GitHub</h1>
+            <AiFillGithub style={{ fontSize: "4rem" }} />
+            <h1 className="justify-center flex text-lg sm:text-xl">GitHub</h1>
           </a>
           <a
             href="mailto:damian.eisenring@stud.altekanti.ch"
             target="_blank"
             rel="noreferrer"
-            className="text-white filli"
+            className="text-white filli text-center sm:text-left"
           >
-            <IoIosMail className="text-white filli" style={{ fontSize: '150px' }} />
-            <h1 className="justify-center flex">Mail</h1>
+            <IoIosMail style={{ fontSize: "4rem" }} />
+            <h1 className="justify-center flex text-lg sm:text-xl">Mail</h1>
           </a>
           <a
             href="https://www.linkedin.com/in/damian-eisenring-aa7b182b1/"
             target="_blank"
             rel="noreferrer"
-            className="text-white filli"
+            className="text-white filli text-center sm:text-left justify-center"
           >
-            <CiLinkedin className="text-white filli" style={{ fontSize: '150px' }} />
-            <h1 className="justify-center flex">Linkedin</h1>
+            <CiLinkedin style={{ fontSize: "4rem" }} />
+            <h1 className="justify-center flex text-lg sm:text-xl">Linkedin</h1>
           </a>
         </div>
       </div>
