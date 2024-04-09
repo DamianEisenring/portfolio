@@ -57,8 +57,6 @@ function Portrait() {
           />
         </div>
 
-        <div className="bg-gradient-to-b from-gray-900 to-gray-200 h-5" />
-
         <div className="h-50 bg-gray-200 text-black">
           <div className="relative wrap overflow-hidden p-10 h-full">
             <div className="absolute border-opacity-20 border-white h-full border ml-3.5 md:ml-0 md:right-1/2 bg-white"></div>
@@ -137,7 +135,6 @@ function Portrait() {
           </div>
         </div>
 
-        <div className="bg-gradient-to-t from-gray-900 to-gray-200 h-5" />
 
         <div className="bg-gray-900 text-white">
           <div className="h-10" />

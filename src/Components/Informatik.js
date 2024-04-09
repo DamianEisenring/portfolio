@@ -57,9 +57,8 @@ function Informatik() {
 </div>
 
         <div>
-          <div className="bg-gradient-to-t from-gray-900 to-gray-200 h-5" />
 
-          <h1 className="text-3xl md:text-6xl text-white font-semibold ml-10 relative">
+          <h1 className="text-3xl md:text-6xl text-white font-semibold ml-10 relative mt-10">
             Meine Projekte
           </h1>
 
@@ -89,7 +88,6 @@ function Informatik() {
 
           <div className="bg-gray-900 h-10"></div>
 
-          <div className="bg-gradient-to-b from-gray-900 to-gray-200 h-5" />
 
           <div className="h-1/2 w-auto text-white bg-gray-200 flex flex-col sm:flex-row items-center sm:items-center">
             <img
@@ -115,8 +113,6 @@ function Informatik() {
           </div>
 
           <div className="bg-gray-200 h-10"></div>
-
-          <div className="bg-gradient-to-t from-gray-900 to-gray-200 h-5" />
 
           <div className="h-1/2 w-auto text-white bg-gray-900 flex flex-col sm:flex-row items-center">
             <div className="flex-1 sm:order-1">
